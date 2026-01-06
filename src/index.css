@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type=range] {
+    @apply h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600;
+  }
+}
